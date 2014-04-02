@@ -14,5 +14,6 @@ Running it:
 nohup ./fakeWeb &                    # defaults - no logging, listen on 8082 and return 200s
 nohup ./fakeWeb -log > access.log &  # log requests
 nohup ./fakeWeb -status=500          # return 500s
+nohup ./fakeWeb -address :8080       # run on port 8080
 ```
 
